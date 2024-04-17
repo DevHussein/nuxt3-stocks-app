@@ -1,8 +1,9 @@
 <script setup lang="ts">
 const {data} = await useFetch('/api/tickers/?limit=10')
 </script>
-<h1>Hala Abo Humaidi</h1>
 <template>
+  <h1>Hala Abo Humaidi</h1>
+
   <main>
     <h1>Index Page</h1>
 
